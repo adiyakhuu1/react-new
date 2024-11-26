@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
-
 * {
-  font-family: "Syne", serif;
+  font-family: "Arial", serif;
   color: black;
 }
 body {
@@ -19,112 +17,74 @@ body {
 .front {
   background-size: 100%;
   background-repeat: no-repeat;
-  height: auto;
-  width: auto;
+  width: 336px;
+  height: 192px;
 }
 .back {
   background-size: 100%;
   background-repeat: no-repeat;
-  height: auto;
-  width: auto;
+  width: 336px;
+  height: 192px;
 }
 #front1 {
   background-image: url(./img/front1.png);
-  width: 336px;
-  height: 192px;
+ 
 }
 #back1 {
   background-image: url(./img/back1.png);
-  width: 336px;
-  height: 192px;
 }
+
 #front2 {
   background-image: url(./img/front2.png);
-  width: 336px;
-  height: 192px;
 }
 #back2 {
   background-image: url(./img/back2.png);
-  width: 336px;
-  height: 192px;
 }
 #front3 {
   background-image: url(./img/front3.png);
-  width: 336px;
-  height: 192px;
 }
 #back3 {
   background-image: url(./img/back3.png);
-  width: 336px;
-  height: 192px;
 }
 #front4 {
   background-image: url(./img/front4.png);
-  width: 336px;
-  height: 192px;
 }
 #back4 {
   background-image: url(./img/back4.png);
-  width: 336px;
-  height: 192px;
 }
 #front5 {
   background-image: url(./img/front5.png);
-  width: 336px;
-  height: 192px;
 }
 #back5 {
   background-image: url(./img/back5.png);
-  width: 336px;
-  height: 192px;
 }
 #front6 {
   background-image: url(./img/front6.png);
-  width: 336px;
-  height: 192px;
 }
 #back6 {
   background-image: url(./img/back6.png);
-  width: 336px;
-  height: 192px;
 }
 #front7 {
   background-image: url(./img/front7.png);
-  width: 336px;
-  height: 192px;
 }
 #back7 {
   background-image: url(./img/back7.png);
-  width: 336px;
-  height: 192px;
 }
 #front8 {
   background-image: url(./img/front8.png);
-  width: 336px;
-  height: 192px;
 }
 #back8 {
   background-image: url(./img/back8.png);
-  width: 336px;
-  height: 192px;
 }
 #front9 {
   background-image: url(./img/front9.png);
-  width: 336px;
-  height: 192px;
 }
 #back9 {
   background-image: url(./img/back9.png);
-  width: 336px;
-  height: 192px;
 }
 #front10 {
   background-image: url(./img/front10.png);
-  width: 336px;
-  height: 192px;
 }
 #back10 {
   background-image: url(./img/back10.png);
-  width: 336px;
-  height: 192px;
 }
