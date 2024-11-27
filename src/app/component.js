@@ -1,5 +1,5 @@
-const MyComponent = ({ props }) => {
-  console.log(props);
+const MyComponent = ( {props} ) => {
+  // console.log(props);
   return (
     <div className="cards">
       <div className="front" id={`front${props.id}`}>
