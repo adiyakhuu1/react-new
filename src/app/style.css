@@ -12,7 +12,7 @@ body {
   /* display: flex; */
   /* background-color: white; */
 
-  /* background-image: url(/public/img/back\ 1.png); */
+  /* background-image: url(/img/back\ 1.png); */
 }
 .front {
   background-size: 100%;
@@ -21,74 +21,47 @@ body {
   height: 192px;
   position: relative;
 }
-.back {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 336px;
-  height: 192px;
-}
 #front1 {
-  background-image: url(/public/img/front1.png);
-  /* background-image: url(/public/img/front1.png); */
-}
-#back1 {
-  background-image: url(/public/img/back1.png);
+  background-image: url("/img/front1.png");
+  /* background-image: url(/img/front1.png); */
 }
 
 #front2 {
-  background-image: url("/public/img/front2.png");
+  background-image: url("/img/front2.png");
 }
-#back2 {
-  background-image: url(/public/img/back2.png);
-}
+
 #front3 {
-  background-image: url(/public/img/front3.png);
+  background-image: url("/img/front3.png");
 }
-#back3 {
-  background-image: url(/public/img/back3.png);
-}
+
 #front4 {
-  background-image: url(/public/img/front4.png);
+  background-image: url("/img/front4.png");
 }
-#back4 {
-  background-image: url(/public/img/back4.png);
-}
+
 #front5 {
-  background-image: url(/public/img/front5.png);
+  background-image: url("/img/front5.png");
 }
-#back5 {
-  background-image: url(/public/img/back5.png);
-}
+
 #front6 {
-  background-image: url(/public/img/front6.png);
+  background-image: url("/img/front6.png");
 }
-#back6 {
-  background-image: url(/public/img/back6.png);
-}
+
 #front7 {
-  background-image: url(/public/img/front7.png);
+  background-image: url("/img/front7.png");
 }
-#back7 {
-  background-image: url(/public/img/back7.png);
-}
+
 #front8 {
-  background-image: url(/public/img/front8.png);
+  background-image: url("/img/front8.png");
 }
-#back8 {
-  background-image: url(/public/img/back8.png);
-}
+
 #front9 {
-  background-image: url(/public/img/front9.png);
+  background-image: url("/img/front9.png");
 }
-#back9 {
-  background-image: url(/public/img/back9.png);
-}
+
 #front10 {
-  background-image: url(/public/img/front10.png);
+  background-image: url("/img/front10.png");
 }
-#back10 {
-  background-image: url(/public/img/back10.png);
-}
+
 .first-name {
   font-size: 14px;
   font-weight: 700;
