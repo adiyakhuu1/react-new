@@ -28,7 +28,6 @@ body {
 }
 #front1 {
   background-image: url(./img/front1.png);
- 
 }
 #back1 {
   background-image: url(./img/back1.png);
@@ -87,4 +86,43 @@ body {
 }
 #back10 {
   background-image: url(./img/back10.png);
+}
+.first-name {
+  font-size: 14px;
+  font-weight: 700;
+  top: 25px;
+  left: 27px;
+}
+.last-name {
+  font-size: 14px;
+  font-weight: 700;
+  top: 45px;
+  left: 27px;
+}
+.phoneNumber {
+  top: 116.44px;
+  left: 40.87px;
+  font-size: 8px;
+}
+.email {
+  top: 131.44px;
+  left: 40.87px;
+  font-size: 8px;
+}
+.address {
+  top: 146.44px;
+  left: 40.87px;
+  font-size: 8px;
+}
+.companyName {
+  top: 59.4px;
+  /* left: 40.87px; */
+  width: 90.65px;
+  height: 8.6px;
+  right: 25.35px;
+  color: white;
+  font-size: 8px;
+}
+.email .phoneNumber .address {
+  font-size: 8px;
 }

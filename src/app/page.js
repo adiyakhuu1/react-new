@@ -116,27 +116,48 @@ const cards = [
 const card = cards.map((card) => {
   return (
     <div className="cards">
-      <div className="front" id={`front${card.id}`}>
-        <p className="first-name" id={`firstName${card.id}`}>
+      <div
+        style={{ position: "relative" }}
+        className="front"
+        id={`front${card.id}`}>
+        <p
+          style={{ position: "absolute" }}
+          className="first-name"
+          id={`firstName${card.id}`}>
           {card.firstName}
         </p>
-        <p className="last-name" id={`lastName${card.id}`}>
+        <p
+          style={{ position: "absolute" }}
+          className="last-name"
+          id={`lastName${card.id}`}>
           {card.lastName}
         </p>
-        <p className="email" id={`email${card.id}`}>
+        <p
+          style={{ position: "absolute" }}
+          className="email"
+          id={`email${card.id}`}>
           {card.email}
         </p>
-        <h3 className="companyName" id={`companyName${card.id}`}>
+        <h3
+          style={{ position: "absolute" }}
+          className="companyName"
+          id={`companyName${card.id}`}>
           {card.companyName}
         </h3>
-        <p className="phoneNumber" id={`phoneNumber${card.id}`}>
+        <p
+          style={{ position: "absolute" }}
+          className="phoneNumber"
+          id={`phoneNumber${card.id}`}>
           {card.phoneNumber}
         </p>
-        <p className="address" id={`address${card.id}`}>
+        <p
+          style={{ position: "absolute" }}
+          className="address"
+          id={`address${card.id}`}>
           {card.address}
         </p>
       </div>
-      <div className="back" id={`back${card.id}`}></div>
+      {/* <div className="back" id={`back${card.id}`}></div> */}
     </div>
     // <div className="cards">
     //   <div style={{backgroundImage: `url(./img/${card.backgroundFront + card.id}.png)`,}} className="front" id={`front${card.id}`}>
